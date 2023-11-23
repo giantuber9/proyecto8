@@ -1,0 +1,43 @@
+header {
+    background-color: rgba(255, 217, 0, 0.863);
+}
+
+main {
+    background-color: orange;
+    width: 850px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: gold;
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    background-color: whitesmoke;
+    border: 2px solid grey;
+    font-size: 12px;
+}
+
+label {
+    font-size: 18px;
+}
+
+body {
+    background-color: black;
+}
+
+.final {
+    margin-top: 5px;
+    height: 50px;
+}
+
+.provincia {
+    margin-top: 5px;
+}

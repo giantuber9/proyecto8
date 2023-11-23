@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de Rockstar games</h1>
+        <img src="imagen/descarga.png" alt="descarga">
+        <h3>Ingrese sus datos a continuacion:</h3>
+    </header>
+    <main>
+        <form action="">
+            <label for="nombre"> ingrese su nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email"> ingrese su correo electronico:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="nacimiento"> ingrese fecha de nacimiento:</label>
+            <input type="date" name="nacimiento" id="nacimiento" required>
+
+            <label for="DNI"> ingrese DNI:</label>
+            <input type="number" name="DNI" id="DNI" required>
+
+            <label for="telefono"> ingrese nuemro de celular:</label>
+            <input type="tel" name="telefono" id="telefono" required>
+
+            <label for="X"> ingrese usuario de X:</label>
+            <input type="text" name="X" id="X" required>
+
+            <label for="ig"> ingrese instagram:</label>
+            <input type="text" name="ig" id="ig" required>
+
+            <label for="ciudad"> ingrese ciudad donde vive:</label>
+            <input type="text" name="ciudad" id="ciudad" required>
+            <div class="provincia">
+
+                <label for="provincia"> ingrese provincia:</label>
+                <select name="provincia" id="provincia" required>
+                    <option value=""> seleccione la provincia</option>
+                    <option value="Buenos aires"> Buenos Aires</option>
+                    <option value="Misiones"> Misiones</option>
+                    <option value="Tierra del fuego"> Tierra del fuego</option>
+                    <option value="La pampa"> La pampa</option>
+                    <option value="Cordoba"> Cordoba</option>
+                    <option value="Santa fe"> Santa fe</option>
+                    <option value="Chaco"> Chaco</option>
+                    <option value="Mendoza"> Mendoza</option>
+                    <option value="Entre rios"> Entre rios</option>
+                    <option value="Salta"> Salta</option>
+                    <option value="Tucuman"> Tucuman</option>
+                    <option value="Jujuy"> Jujuy</option>
+                    <option value="Corrientes"> Corrientes</option>
+                    <option value="Rio negro"> Rio negro</option>
+                    <option value="Neuquen"> Neuquen</option>
+                    <option value="Chubut"> Chubut</option>
+                    <option value="Formosa"> Formosa</option>
+                    <option value="Santa cruz"> Santa cruz</option>
+                    <option value="Catamarca"> Catamarca</option>
+                    <option value="San Juan"> San Juan</option>
+                    <option value="San luis"> San luis</option>
+                    <option value="Santiago del Estero"> Santiago del Estero</option>
+                    <option value="La rioja"> La rioja</option>
+                </select>
+            </div>
+
+            <label for="ocupacion"> elija ocupacion en la empresa</label>
+            <select name="ocupacion" id="ocupacion" required>
+                <option value=""> seleccione ocupacion de la empresa</option>
+                <option value="programador"> programador</option>
+                <option value="artista"> artista</option>
+                <option value="compositor">compositor de musica</option>
+            </select>
+
+            <div class="final">
+                <input type="submit" value="enviar formulario">
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>Hecho por Rivas Gianluca Ezequiel</p>
+    </footer>
+</body>
+
+</html>
